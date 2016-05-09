@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="interface.css" />
+	<title>ControlALtKingdom</title>
+
+</head>
+<body>
+	<div id="background" class="background">
+	<div id="kingdomScreen">
+		<h1 id="welcomingHeading">Welcome to <span id="kingdomName"> </span></h1>
+		<button id="getMoney" onclick="getMoney()">Click for 10000 Coins!</button>
+		<br />
+		<span class="hidden" id="moneyBox">Coins: <span id="money">0</span></span>
+		<br />
+		<button id="startButton" onclick="startGame()">Click to Begin!</button>
+		<br />
+		<button class="hidden" id="grainButton" onclick="getGrain()">Click to Harvest Grain!</button>
+		<br />
+		<button class="hidden" id="grainSellButton" onclick="sellGrain()">Click to Sell your Grain for <span class="hidden" id="grainSellPrice">0.5</span> Coins</button>
+		<br />
+		<span class="hidden" id="grainStore">Grain: <span id="grainNumber">0</span></span>
+		<br />
+		<button class="hidden" id="grainYieldUpgrade" onclick="upgradeGrainYield()">Click to Increase your Grain Yield! Cost: <span id="upgradeGrainYieldPrice">15</span> Coins</button>
+		<br />
+		<span class="hidden" id="yieldLevel">Grain Yield Level: <span id="grainYieldLevel">1</span></span>
+		<br />
+		<button class="hidden" id="grainPriceUpgrade"onclick="upgradeGrainPrice()">Click to Increase the Sell Price of Grain! Cost: <span id="upgradeGrainPricePrice">20</span> Coins</button>
+		<br />
+		<button class="hidden" id="researchButton" onclick="goToResearch()">Click to Access the Town Policies Screen!</button>
+		<br />
+	</div>
+	<div id="techScreen" class="hidden">
+		<button id="mainButton" onclick="goToMain()">Click to Return to the Kingdom Screen!</button>
+		<br />
+		<span id="science">Science: <span id="scienceNumber">0</span></span>
+		<br />
+		<button id="scienceButton" onclick="getScience()">Click to Earn Science!</button>
+		<br />
+		<br />
+		<button id="scienceResearch" onclick="researchScience()">Science Unlock</button>
+		<br />
+		<button class="hidden" id="oreResearch" onclick="researchOre()">Ore Mining</button>
+	</div>
+	</div>
+
+    	<script type="text/javascript" src="main.js"></script>
+</body>
