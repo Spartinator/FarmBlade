@@ -96,7 +96,7 @@ h1 {
   border-radius:5px;
   padding:10px 10px 10px 10px
 }
-#moneyBox {
+.moneyBox {
   color:black;
   font-size:18px;
   font-weight:bold;
