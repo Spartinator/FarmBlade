@@ -1,0 +1,266 @@
+
+.hidden {
+  display: none;
+}
+.hidden1 {
+  display: none;
+}
+h1 {
+  font-family:cursive;
+  text-decoration:underline;
+  font-weight:bold;
+  color: #006400;
+  text-align:center;
+  
+}
+#startButton {
+  color:orange;
+  font-weight:bold;
+  background-color:purple;
+  border:solid blue 2px;
+  border-radius:5px;
+  padding:5px 5px 5px 5px;
+}
+#startButton:hover {
+  color:orange;
+  font-weight:bold;
+  background-color:purple;
+  border:solid red 2px;
+  border-radius:5px;
+  padding:5px 5px 5px 5px;
+}
+.gameBackground {
+  background-color:#FAEBD7;
+  border:solid 7px #DEB887;
+  border-radius:10px;
+  padding:5px 5px 5px 5px;
+}
+
+#grainButton {
+  color:#DEB887;
+  font-family:Geneva;
+  font-size:20px;
+  font-weight:bold;
+  background-color:#006400;
+  border:2px solid #DEB887;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#grainButton:hover {
+  color:#DEB887;
+  font-family:Geneva;
+  font-size:20px;
+  font-weight:bold;
+  background-color:#006400;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#grainYieldUpgrade {
+  color:#DEB887;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#006400;
+  border:2px solid #DEB887;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#grainYieldUpgrade:hover {
+  color:#DEB887;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#006400;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#grainSellButton {
+  color: #4B0082;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color: #DAA520;
+  border:2px solid purple;
+  border-radius:5px;
+  padding:10px 10px 10px 10px
+}
+#grainSellButton:hover {
+  color: #4B0082;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color: #DAA520;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px
+}
+#moneyBox {
+  color:black;
+  font-size:18px;
+  font-weight:bold;
+  font-family:Geneva;
+  background-color:#B8860B;
+  border:solid #B8860B 1px;
+  border-radius:7px;
+}
+#grainStore {
+  color:black;
+  font-size:18px;
+  font-weight:bold;
+  font-family:Geneva;
+  background-color:#B8860B;
+  border:solid #B8860B 1px;
+  border-radius:7px;
+}
+#yieldLevel {
+  color:black;
+  font-size:18px;
+  font-weight:bold;
+  font-family:Geneva;
+  background-color:#B8860B;
+  border:solid #B8860B 1px;
+  border-radius:7px;
+}
+.researchBlueBackground {
+  background-color: #6A5ACD;
+  border:solid 7px #000080;
+  border-radius:10px;
+  padding:5px 5px 5px 5px;
+}
+#scienceResearch {
+  color:black;
+  font-family:Geneva;
+  font-weight:bold;
+  font-size:13px;
+  height:100px;
+  width:100px;
+  border:2px solid navy;
+  border-radius:20px;
+}
+#scienceResearch:hover {
+  color:black;
+  font-family:Geneva;
+  font-weight:bold;
+  font-size:13px;
+  height:100px;
+  width:100px;
+  border:2px solid red;
+  border-radius:20px;
+}
+#grainPriceUpgrade {
+  color:#DEB887;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#006400;
+  border:2px solid #DEB887;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#grainPriceUpgrade:hover {
+  color:#DEB887;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#006400;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#researchButton {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px #000080;
+  border-radius:5px;
+}
+#researchButton:hover {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px red;
+  border-radius:5px;
+}
+#mainButton {
+  color:#DEB887;
+  font-family:Geneva;
+  font-size:20px;
+  font-weight:bold;
+  background-color:#006400;
+  border:2px solid #DEB887;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#mainButton:hover {
+  color:#DEB887;
+  font-family:Geneva;
+  font-size:20px;
+  font-weight:bold;
+  background-color:#006400;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+.mainBackground {
+   background-color:#FAEBD7;
+  border:solid 7px #DEB887;
+  border-radius:10px;
+  padding:5px 5px 5px 5px;
+}
+#oreResearch {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px #000080;
+  border-radius:5px;
+}
+#oreResearch:hover {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px red;
+  border-radius:5px;
+}
+#science {
+  color:black;
+  background-color: #00CED1;
+  border: black solid 1px;
+  border-radius:5px;
+  padding:5px 5px 5px 5px;
+  font-weight:bold;
+  font-family:Geneva;
+  float:right;
+  font-size:25px;
+}
+#scienceButton {
+  color:black;
+  background-color: #00BFFF;
+  border: black solid 1px;
+  border-radius:5px;
+  padding:5px 5px 5px 5px;
+  font-weight:bold;
+  font-family:Geneva;
+  float:left;
+  font-size:25px;
+}
+#scienceButton:hover {
+  color:black;
+  background-color: #00BFFF;
+  border: red solid 1px;
+  border-radius:5px;
+  padding:5px 5px 5px 5px;
+  font-weight:bold;
+  font-family:Geneva;
+  float:left;
+  font-size:25px;
+}
