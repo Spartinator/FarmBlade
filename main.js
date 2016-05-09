@@ -146,8 +146,11 @@ function randomEvent(){
 }
 
 function getScience() {
-  science += scienceModifier;
-  document.getElementById("scienceNumber").innerHTML = science;
+  if(money >= 100){
+    money -= 100;
+    science += scienceModifier;
+    document.getElementById("scienceNumber").innerHTML = science;
+  }
 }
 
 // 1 Second Loop
