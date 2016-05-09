@@ -13,7 +13,7 @@ var upgrade3 = true;
 var randomEvent = 0;
 var randomEventNum = 0;
 var science = 0;
-var scienceModifier = 0.5;
+var scienceModifier = 1;
 
 function getMoney(){
   money += 10000;
@@ -149,6 +149,7 @@ function getScience() {
   if(money >= 100){
     money -= 100;
     science += scienceModifier;
+    document.getElementById("techMoney").innerHTML = money;
     document.getElementById("scienceNumber").innerHTML = science;
   }
 }
