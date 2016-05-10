@@ -273,3 +273,21 @@ h1 {
   float:left;
   font-size:25px;
 }
+#grainResearch {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px #000080;
+  border-radius:5px;
+}
+#grainResearch:hover {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px red;
+  border-radius:5px;
+}
