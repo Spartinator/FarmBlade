@@ -291,3 +291,22 @@ h1 {
   border: solid 2px red;
   border-radius:5px;
 }
+#oreMine {
+  color:black;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#A9A9A9;
+  border:2px solid black;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#ore {
+  color:black;
+  font-size:18px;
+  font-weight:bold;
+  font-family:Geneva;
+  background-color:#DCDCDC;
+  border:solid #A9A9A9 1px;
+  border-radius:7px;
+}
