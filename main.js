@@ -14,6 +14,8 @@ var randomEvent = 0;
 var randomEventNum = 0;
 var science = 0;
 var scienceModifier = 1;
+var ore = 0;
+var oreModifier = 0.5;
 
 function getMoney(){
   money += 10000;
@@ -114,6 +116,8 @@ function researchOre() {
     document.getElementById("scienceNumber").innerHTML = science;
     document.getElementById("oreResearch").className = "hidden";
     document.getElementById("grainResearch").className = " ";
+    document.getElementById("oreMine").className = " ";
+    document.getElementById("ore").className = " ";
   }
 }
 
@@ -169,3 +173,8 @@ window.setInterval(function(){
     randomEvent();
   }
 }, 1000);
+
+function mineOre() {
+  ore += oreModifier;
+  document.getElementById("oreNumber") = ore;
+}
