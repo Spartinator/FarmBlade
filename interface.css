@@ -304,6 +304,16 @@ h1 {
   border-radius:5px;
   padding:10px 10px 10px 10px;
 }
+#oreMine:hover {
+  color:black;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#A9A9A9;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
 #ore {
   color:black;
   font-size:24px;
