@@ -177,5 +177,5 @@ window.setInterval(function(){
 
 function mineOre() {
   ore += 0.5;
-  document.getElementById("oreNumber") = ore;
+  document.getElementById("oreNumber").innerHTML = ore;
 }
