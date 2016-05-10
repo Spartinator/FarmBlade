@@ -175,6 +175,6 @@ window.setInterval(function(){
 }, 1000);
 
 function mineOre() {
-  ore += oreModifier;
+  ore += oreModifier * 1;
   document.getElementById("oreNumber") = ore;
 }
