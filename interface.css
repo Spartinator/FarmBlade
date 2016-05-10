@@ -98,7 +98,7 @@ h1 {
 }
 #moneyBox {
   color:black;
-  font-size:18px;
+  font-size:24px;
   font-weight:bold;
   font-family:Geneva;
   background-color:#B8860B;
@@ -108,7 +108,7 @@ h1 {
 }
 #techMoneyBox {
   color:black;
-  font-size:18px;
+  font-size:24px;
   font-weight:bold;
   font-family:Geneva;
   background-color:#B8860B;
@@ -117,7 +117,7 @@ h1 {
 }
 #grainStore {
   color:black;
-  font-size:18px;
+  font-size:24px;
   font-weight:bold;
   font-family:Geneva;
   background-color:#B8860B;
@@ -127,7 +127,7 @@ h1 {
 }
 #yieldLevel {
   color:black;
-  font-size:18px;
+  font-size:24px;
   font-weight:bold;
   font-family:Geneva;
   background-color:#B8860B;
@@ -306,7 +306,7 @@ h1 {
 }
 #ore {
   color:black;
-  font-size:18px;
+  font-size:24px;
   font-weight:bold;
   font-family:Geneva;
   background-color:#DCDCDC;
