@@ -118,6 +118,7 @@ function researchOre() {
     document.getElementById("grainResearch").className = " ";
     document.getElementById("oreMine").className = " ";
     document.getElementById("ore").className = " ";
+    alert("Hitting rocks just got more fun!");
   }
 }
 
