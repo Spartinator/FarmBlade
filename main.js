@@ -109,7 +109,12 @@ function researchScience() {
   }
 }
 function researchOre() {
-  
+  if(science >= 5) {
+    science -= 5;
+    document.getElementById("scienceNumber").innerHTML = science;
+    document.getElementById("oreResearch").className = "hidden";
+    document.getElementById("grainResearch").className = " ";
+  }
 }
 
 function randomEvent(){
