@@ -141,7 +141,7 @@ function researchGrain() {
   }
 }
 
-function randomEvent(){
+function randomOccurence(){
   randomEvent += 1;
   if(randomEvent > 300){
     randomEvent = 0;
@@ -191,7 +191,7 @@ function getScience() {
 // 1 Second Loop
 window.setInterval(function(){
   // Put code to be run every second in here.
-  randomEvent();
+  randomOccurence();
 }, 1000);
 
 
