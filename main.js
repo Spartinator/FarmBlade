@@ -16,6 +16,10 @@ var science = 0;
 var scienceModifier = 1;
 var ore = 0;
 var oreModifier = 0.5;
+var farmerNumber = 0;
+var grainFarmed = 10;
+var farmerHireCost = 250;
+var farmerHired = false;
 
 function getMoney(){
   money += 10000;
@@ -122,6 +126,20 @@ function researchOre() {
     alert("Hitting rocks just got more fun!");
   }
 }
+function mineOre() {
+  ore += 0.5;
+  document.getElementById("oreNumber").innerHTML = ore;
+}
+function researchGrain() {
+  if(science >= 12) {
+    science -= 12;
+    document.getElementById("scienceNumber").innerHTML = science;
+    document.getElementById("farmers").className = " ";
+    document.getElementById("farmerNumber").className = " ";
+    alert("Harvesting Grain yourself is pretty lame! Get with the program and hire some slaves!");
+    document.getElementById("smeltingResearch").className = " ";
+  }
+}
 
 function randomEvent(){
   randomEvent += 1;
@@ -177,7 +195,3 @@ window.setInterval(function(){
 }, 1000);
 
 
-function mineOre() {
-  ore += 0.5;
-  document.getElementById("oreNumber").innerHTML = ore;
-}
