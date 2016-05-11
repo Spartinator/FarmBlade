@@ -102,6 +102,7 @@ function goToMain() {
  document.getElementById("background").className = "mainBackground";
  document.getElementById("techScreen").className = "hidden";
  document.getElementById("kingdomScreen").className = " ";
+   document.getElementById("money").innerHTML = money;
 }
 
 function researchScience() {
