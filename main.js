@@ -138,6 +138,7 @@ function researchGrain() {
     document.getElementById("farmerNumber").className = " ";
     alert("Harvesting Grain yourself is pretty lame! Get with the program and hire some slaves!");
     document.getElementById("smeltingResearch").className = " ";
+    document.getElementById("grainReseaarch").classname = "hidden";
   }
 }
 
