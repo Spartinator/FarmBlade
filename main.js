@@ -16,10 +16,9 @@ var science = 0;
 var scienceModifier = 1;
 var ore = 0;
 var oreModifier = 0.5;
-var farmerNumber = 0;
-var grainFarmed = 10;
-var farmerHireCost = 250;
-var farmerHired = false;
+var farmer = 0;
+var farmerGain = 10;
+var farmerCost = 250;
 var prestige = 0;
 
 function getMoney(){
@@ -193,6 +192,17 @@ function getScience() {
   }
 }
 
+function hireGrainFarmer(){
+  if(money >= farmerCost){
+    money -= farmerCost;
+    farmer += 1;
+  }
+}
+
+function getGrain(){
+  grain += farmer * farmerGain;
+}
+
 function prestige(){
   money = 0;
   
@@ -208,6 +218,7 @@ window.setInterval(function(){
   // Put code to be run every second in here.
   randomOccurence();
   prestigeValue();
+  getGrain();
 }, 1000);
 
 
