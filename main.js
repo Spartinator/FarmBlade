@@ -137,7 +137,7 @@ function researchGrain() {
     document.getElementById("scienceNumber").innerHTML = science;
     document.getElementById("farmers").className = " ";
     document.getElementById("farmerNumber").className = " ";
-    document.getElementById("hireFarmer").className = " "
+    document.getElementById("hireFarmer").className = " ";
     alert("Harvesting Grain yourself is pretty lame! Get with the program and hire some slaves!");
     document.getElementById("smeltingResearch").className = " ";
     document.getElementById("grainResearch").className = "hidden";
