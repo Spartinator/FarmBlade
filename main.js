@@ -194,12 +194,12 @@ function getScience() {
 }
 
 function prestige(){
-  coins = 0;
+  money = 0;
   
 }
 
 function prestigeValue(){
-  prestigeValue = moeny / 1000;
+  prestigeValue = money / 1000;
   //document.getElementById("prestigeValue").innerHTML = prestigeValue
 }
 
