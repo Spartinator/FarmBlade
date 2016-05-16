@@ -2,6 +2,8 @@
 
 A semi-incremental game with unique mechanics and enjoyability created by sparticle999 and Loganator4625
 
+[Game Link](http://spartinator.github.io/ControlAltKingdom/)
+
 # To Do List
 
 - Implement Idleness
