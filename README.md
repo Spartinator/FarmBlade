@@ -13,3 +13,4 @@ A semi-incremental game with unique mechanics and enjoyability created by sparti
 - Random Events
 - Training Soldiers
 - Premium Currency
+- Prestige System
