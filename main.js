@@ -199,7 +199,7 @@ function prestige(){
 }
 
 function prestigeValue(){
-  prestigeValue = coins / 1000;
+  prestigeValue = moeny / 1000;
   //document.getElementById("prestigeValue").innerHTML = prestigeValue
 }
 
