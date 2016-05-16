@@ -20,6 +20,7 @@ var farmerNumber = 0;
 var grainFarmed = 10;
 var farmerHireCost = 250;
 var farmerHired = false;
+var presigeValue = 0;
 
 function getMoney(){
   money += 10000;
@@ -150,10 +151,12 @@ function randomOccurence(){
   }
   randomEventNum = Math.rand * 100;
   if(randomEventNum < 10){
-    
+    //alert("You just killed an Albanian farmer by working him too hard! Lose 1 farmer");
+    //farmer -= 1
   }
   if(randomEventNum > 10 && randomEventNum < 20){
-    
+    //alert("Some merchants stay at your farm! Gain rent: 100 Coins");
+    //money += 100;
   }
   if(randomEventNum > 20 && randomEventNum < 30){
     
@@ -190,10 +193,21 @@ function getScience() {
   }
 }
 
+function prestige(){
+  coins = 0;
+  
+}
+
+function prestigeValue(){
+  prestigeValue = coins / 1000;
+  //document.getElementById("prestigeValue").innerHTML = prestigeValue
+}
+
 // 1 Second Loop
 window.setInterval(function(){
   // Put code to be run every second in here.
   randomOccurence();
+  prestigeValue();
 }, 1000);
 
 
