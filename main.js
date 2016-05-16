@@ -20,7 +20,7 @@ var farmerNumber = 0;
 var grainFarmed = 10;
 var farmerHireCost = 250;
 var farmerHired = false;
-var presigeValue = 0;
+var prestigeValue = 0;
 
 function getMoney(){
   money += 10000;
