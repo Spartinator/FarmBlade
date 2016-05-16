@@ -20,7 +20,7 @@ var farmerNumber = 0;
 var grainFarmed = 10;
 var farmerHireCost = 250;
 var farmerHired = false;
-var prestigeValue = 0;
+var prestige = 0;
 
 function getMoney(){
   money += 10000;
@@ -199,7 +199,7 @@ function prestige(){
 }
 
 function prestigeValue(){
-  var prestigeValue = money / 1000;
+  var prestige = money / 1000;
   //document.getElementById("prestigeValue").innerHTML = prestigeValue
 }
 
