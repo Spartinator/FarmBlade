@@ -320,3 +320,41 @@ h1 {
   border:solid #A9A9A9 1px;
   border-radius:7px;
 }
+#hireFarmer {
+  color:#DEB887;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#006400;
+  border:2px solid #DEB887;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#hireFarmer:hover {
+  color:#DEB887;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#006400;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#farmers {
+  color:black;
+  font-size:24px;
+  font-weight:bold;
+  font-family:Geneva;
+  background-color:#B8860B;
+  border:solid #B8860B 1px;
+  border-radius:7px;
+}
+#farmers:hover {
+  color:black;
+  font-size:24px;
+  font-weight:bold;
+  font-family:Geneva;
+  background-color:#B8860B;
+  border:solid red 1px;
+  border-radius:7px;
+}
