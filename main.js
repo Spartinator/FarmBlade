@@ -21,8 +21,8 @@ var farmerGain = 10;
 var farmerCost = 250;
 var prestige = 0;
 
-function getMoney(){
-  money += 10000;
+function refreshStats(){
+  document.getElementById("grainNumber")
   document.getElementById("money").innerHTML = money;
 }
 
