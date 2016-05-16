@@ -349,12 +349,3 @@ h1 {
   border:solid #B8860B 1px;
   border-radius:7px;
 }
-#farmers:hover {
-  color:black;
-  font-size:24px;
-  font-weight:bold;
-  font-family:Geneva;
-  background-color:#B8860B;
-  border:solid red 1px;
-  border-radius:7px;
-}
