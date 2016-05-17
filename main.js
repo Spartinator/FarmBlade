@@ -209,7 +209,7 @@ function hireGrainFarmer() {
 
 function autoGrain(){
   grain += farmer * farmerGain;
-  document.getElementById("grain").innerHTML = grain;
+  document.getElementById("grainNumber").innerHTML = grain;
 }
 
 function prestige(){
