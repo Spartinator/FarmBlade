@@ -208,7 +208,7 @@ function autoGrain(){
   grain += farmer * farmerGain;
 }
 
-function Prestige(){
+function prestige(){
   money = 0;
   
 }
