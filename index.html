@@ -14,11 +14,12 @@
 	<div id="background" class="background">
 	<div id="kingdomScreen">
 		<h1 id="welcomingHeading">Welcome to <span id="kingdomName"> </span></h1>
-		<!-- <button id="getMoney" onclick="getMoney()">Click for 10000 Coins!</button> -->
 		<br />
 		<span class="hidden" id="moneyBox">Coins: <span id="money">0</span></span>
 		<br />
 		<button id="startButton" onclick="startGame()">Click to Begin!</button>
+		<br />
+		<button id="prestigeButton" class="hidden" onclick="prestige()">Prestige: <span id="prestigeValue">0</span> Levels</button>
 		<br />
 		<button class="hidden" id="grainButton" onclick="getGrain()">Click to Harvest Grain!</button>
 		<br />
@@ -30,7 +31,7 @@
 		<br />
 		<span class="hidden" id="yieldLevel">Grain Yield Level: <span id="grainYieldLevel">1</span></span>
 		<br />
-		<button class="hidden" id="grainPriceUpgrade"onclick="upgradeGrainPrice()">Click to Increase the Sell Price of Grain! Cost: <span id="upgradeGrainPricePrice">20</span> Coins</button>
+		<button class="hidden" id="grainPriceUpgrade"onclick="upgradeGrainPrice()">Click to Increase the Sell Price of Grain! Cost: <span id="upgradeGrainValueCost">20</span> Coins</button>
 		<br />
 		<button class="hidden" id="hireFarmer" onclick="hireGrainfarmer()">Click to Hire a Grain Farmer! Cost: <span id="farmerCost">250</span> Coins</button>
 		<br />
@@ -61,6 +62,7 @@
 		<br />
 		<button class="hidden" id="smeltingResearch" onclick="researchSmelting()">Smelting : 30</button>
 		<br />
+		<button class="hidden" id="prestigeResearch" onclick="researchPrestige()">Prestige : 25</button>
 	</div>
 	</div>
 
