@@ -204,7 +204,7 @@ function hireGrainFarmer(){
   }
 }
 
-function getGrain(){
+function autoGrain(){
   grain += farmer * farmerGain;
 }
 
@@ -223,7 +223,7 @@ window.setInterval(function(){
   // Put code to be run every second in here.
   randomOccurence();
   valuePrestige();
-  getGrain();
+  autoGrain();
 }, 1000);
 
 
