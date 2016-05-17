@@ -201,6 +201,9 @@ function hireGrainFarmer() {
   if(money >= farmerCost){
     money -= farmerCost;
     farmer += 1;
+    farmerCost += 400;
+    document.getElementById("farmerNumber").innerHTML = farmer;
+    document.getElementById("farmerCost").innerHTML = farmerCost;
   }
 }
 
