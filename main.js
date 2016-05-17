@@ -14,9 +14,10 @@ var farmer = 0;
 var farmerGain = 10;
 var farmerCost = 250;
 var prestige = 0;
+var prestigeValue = 0;
 
 function refreshStats(){
-  document.getElementById("grainNumber")
+  document.getElementById("grainNumber");
   document.getElementById("money").innerHTML = money;
 }
 
@@ -134,6 +135,15 @@ function researchGrain() {
     alert("Harvesting Grain yourself is pretty lame! Get with the program and hire some slaves!");
     document.getElementById("smeltingResearch").className = " ";
     document.getElementById("grainResearch").className = "hidden";
+    document.getElementById("prestigeResearch").className = " ";
+  }
+}
+function researchPrestige() {
+  if(science >= 25) {
+    science -= 25;
+    document.getElementById("scienceNumber").innerHTML = "science";
+    document.getElementById("prestigeResearch").className = "hidden";
+    document.getElementById("prestigeButton").className = " ";
   }
 }
 
@@ -204,7 +214,7 @@ function prestige(){
 
 function prestigeValue(){
   prestige = money / 1000;
-  //document.getElementById("prestigeValue").innerHTML = prestigeValue
+  document.getElementById("prestigeValue").innerHTML = prestigeValue;
 }
 
 // 1 Second Loop
