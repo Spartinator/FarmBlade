@@ -17,7 +17,7 @@ var prestigeNum = 0;
 var prestigeValue = 0;
 
 function refreshStats(){
-  document.getElementById("grainNumber");
+  document.getElementById("grainNumber").innerHTML = grain;
   document.getElementById("money").innerHTML = money;
 }
 
