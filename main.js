@@ -209,7 +209,7 @@ function prestige(){
 }
 
 function prestigeValue(){
-  var prestige = money / 1000;
+  prestige = money / 1000;
   //document.getElementById("prestigeValue").innerHTML = prestigeValue
 }
 
