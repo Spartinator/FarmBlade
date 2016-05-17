@@ -349,3 +349,59 @@ h1 {
   border:solid #B8860B 1px;
   border-radius:7px;
 }
+#prestigeResearch {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px #000080;
+  border-radius:5px;
+}
+#prestigeResearch:hover{
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px red;
+  border-radius:5px;
+}
+#smeltingResearch {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px #000080;
+  border-radius:5px;
+}
+#smeltingResearch:hover {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px #000080;
+  border-radius:5px;
+}
+#prestigeButton {
+  color:#DAA520;
+  background-color:#9932CC;
+  border:solid 2px #FFD700;
+  border-radius:5px;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:25px;
+  padding:10px 10px 10px 10px;
+}
+#prestigeButton:hover {
+  color:#DAA520;
+  background-color:#9932CC;
+  border:solid 2px red;
+  border-radius:5px;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:25px;
+  padding:10px 10px 10px 10px;
+}
