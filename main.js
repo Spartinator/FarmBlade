@@ -133,7 +133,7 @@ function researchGrain() {
     document.getElementById("farmerNumber").className = " ";
     document.getElementById("hireFarmer").className = " ";
     var slaves = "slaves";
-    alert("Harvesting Grain yourself is pretty lame! Get with the program and hire some" + slaves.strike() +  "Famers!");
+    alert("Harvesting Grain yourself is pretty lame! Get with the program and hire some slaves!");
     document.getElementById("smeltingResearch").className = " ";
     document.getElementById("grainResearch").className = "hidden";
     document.getElementById("prestigeResearch").className = " ";
