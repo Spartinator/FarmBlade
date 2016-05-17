@@ -142,7 +142,7 @@ function researchGrain() {
 function researchPrestige() {
   if(science >= 25) {
     science -= 25;
-    document.getElementById("scienceNumber").innerHTML = "science";
+    document.getElementById("scienceNumber").innerHTML = science;
     document.getElementById("prestigeResearch").className = "hidden";
     document.getElementById("prestigeButton").className = " ";
   }
