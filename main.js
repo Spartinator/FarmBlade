@@ -210,7 +210,8 @@ function autoGrain(){
 
 function prestige(){
   money = 0;
-  
+  prestigeValue += 1;
+  document.getElementById("prestigeValue").innerHTML = "prestigeValue";
 }
 
 function valuePrestige(){
