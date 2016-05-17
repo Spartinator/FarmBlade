@@ -213,7 +213,7 @@ function prestige(){
   
 }
 
-function prestigeValue(){
+function valuePrestige(){
   prestige = money / 1000;
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
 }
@@ -222,7 +222,7 @@ function prestigeValue(){
 window.setInterval(function(){
   // Put code to be run every second in here.
   randomOccurence();
-  prestigeValue();
+  valuePrestige();
   getGrain();
 }, 1000);
 
