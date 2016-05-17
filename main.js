@@ -13,7 +13,7 @@ var oreModifier = 0.5;
 var farmer = 0;
 var farmerGain = 10;
 var farmerCost = 250;
-var prestige = 0;
+var prestigeNum = 0;
 var prestigeValue = 0;
 
 function refreshStats(){
@@ -208,13 +208,13 @@ function getGrain(){
   grain += farmer * farmerGain;
 }
 
-function prestige(){
+function Prestige(){
   money = 0;
   
 }
 
 function valuePrestige(){
-  prestige = money / 1000;
+  prestigeNum = money / 1000;
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
 }
 
