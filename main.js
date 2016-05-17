@@ -197,7 +197,7 @@ function getScience() {
   }
 }
 
-function hireGrainFarmer(){
+function hireGrainFarmer() {
   if(money >= farmerCost){
     money -= farmerCost;
     farmer += 1;
