@@ -1,15 +1,9 @@
 var kingdomName = " ";
-var grainPerClick = 1;
-var grain = 0;
-var grainYieldLevel = 1;
-var upgradeGrainYieldPrice = 15;
-var upgrade1 = true;
-var grainSellPrice = 0.5;
+var grain = 0; var grainPerClick = 1; var grainYieldLevel = 1; var upgradeGrainYieldPrice = 15; var grainSellPrice = 0.5;
+var upgrade1 = true; var upgrade2 = true; var upgrade3 = true;
 var money = 0;
-var upgradeGrainPricePrice = 20;
+var upgradeGrainValueCost = 20;
 var grainPriceLevel = 1;
-var upgrade2 = true;
-var upgrade3 = true;
 var randomEvent = 0;
 var randomEventNum = 0;
 var science = 0;
@@ -84,14 +78,14 @@ function upgradeGrainPrice() {
       document.getElementById("researchButton").className = " ";
     }
   }
-  if(money >= upgradeGrainPricePrice) {
-    money -= upgradeGrainPricePrice;
-    upgradeGrainPricePrice = Math.floor(upgradeGrainPricePrice * 1.5);
+  if(money >= upgradeGrainValueCost) {
+    money -= upgradeGrainValueCost;
+    upgradeGrainValueCost = Math.floor(upgradeGrainValueCost * 1.5);
     grainPriceLevel = (grainPriceLevel += 1);
     grainSellPrice = (grainPriceLevel * 0.5);
     document.getElementById("money").innerHTML = money;
     document.getElementById("grainSellPrice").innerHTML = grainSellPrice;
-    document.getElementById("upgradeGrainPricePrice").innerHTML = upgradeGrainPricePrice;
+    document.getElementById("upgradeGrainValueCost").innerHTML = upgradeGrainValueCost;
   }
 }
 function goToResearch() {
