@@ -413,6 +413,7 @@ h1 {
   font-family:Geneva;
   font-size:25px;
   padding:10px 10px 10px 10px;
+  float:right;
 }
 #smeltButton {
   color:black;
