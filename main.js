@@ -7,7 +7,7 @@ var grainPriceLevel = 1;
 var randomEvent = 0;
 var randomEventNum = 0;
 var science = 0;
-var scienceModifier = 1;
+var scienceModifier = 0.1;
 var ore = 0;
 var oreModifier = 0.5;
 var farmer = 0;
@@ -16,6 +16,7 @@ var farmerCost = 250;
 var prestigeClaimed = 0;
 var prestigeValue = 0;
 var prestigeReq = 1000;
+var scienceUnlock = false;
 
 function refreshStats(){
   document.getElementById("grainNumber").innerHTML = grain;
@@ -106,10 +107,9 @@ function goToMain() {
 }
 
 function researchScience() {
-  if(money >= 0) {
     document.getElementById("oreResearch").className = " ";
     document.getElementById("scienceResearch").className = "hidden";
-  }
+    scienceUnlock = true;
 }
 function researchOre() {
   if(science >= 5) {
@@ -199,8 +199,7 @@ function randomOccurence(){
 }
 
 function getScience() {
-  if(money >= 100){
-    money -= 100;
+  if(scienceUnlock === true){
     science += scienceModifier;
     document.getElementById("techMoney").innerHTML = money;
     document.getElementById("scienceNumber").innerHTML = science;
@@ -248,6 +247,7 @@ window.setInterval(function(){
   randomOccurence();
   valuePrestige();
   autoGrain();
+  getScience();
 }, 1000);
 
 
