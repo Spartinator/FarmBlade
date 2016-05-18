@@ -227,7 +227,7 @@ function prestige(){
   prestigeClaimed += prestigeValue;
   prestigeValue = 0;
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
-  document.getElementById("prestigeClaimed").innerHTML = prestigeClaimed;
+  document.getElementById("prestigeClaimedNum").innerHTML = prestigeClaimed;
   document.getElementById("money").innerHTML = money;
 }
 
