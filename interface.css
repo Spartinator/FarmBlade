@@ -243,13 +243,15 @@ h1 {
 #science {
   color:black;
   background-color: #00CED1;
-  border: black solid 1px;
+  border: black solid 3px;
   border-radius:5px;
-  padding:5px 5px 5px 5px;
+  padding:10px 10px 10px 10px;
   font-weight:bold;
   font-family:Geneva;
   float:right;
   font-size:25px;
+  margin-right:40%;
+  font-size:40px;
 }
 #scienceButton {
   color:black;
