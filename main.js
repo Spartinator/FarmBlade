@@ -214,7 +214,7 @@ function autoGrain(){
 
 function prestige(){
   money = 0;
-  prestigeValue += 1;
+  prestigeValue += prestigeNum;
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
   document.getElementById("money").innerHTML = money;
 }
