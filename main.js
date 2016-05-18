@@ -220,7 +220,7 @@ function prestige(){
 }
 
 function valuePrestige(){
-  prestigeNum = money / 1000;
+  prestigeNum = Math.floor(money / 1000);
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
 }
 
