@@ -199,7 +199,7 @@ function randomOccurence(){
 
 function getScience() {
   if(scienceUnlock === true){
-    science = Math.floor(science + scienceModifier * 100) / 100;
+    science = Math.floor((science + scienceModifier) * 100) / 100;
     document.getElementById("techMoney").innerHTML = money;
     document.getElementById("scienceNumber").innerHTML = science;
   }
