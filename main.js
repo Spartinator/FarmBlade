@@ -264,7 +264,6 @@ function prestige(){
       occurenceLevel += 1;
     }
   }
-  }
   money = 0;
   prestigeClaimed += prestigeValue;
   prestigeValue = 0;
