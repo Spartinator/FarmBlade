@@ -17,6 +17,7 @@ var prestigeClaimed = 0;
 var prestigeValue = 0;
 var prestigeReq = 1000;
 var scienceUnlock = false;
+var occurenceLevel = 1;
 
 function refreshStats(){
   document.getElementById("grainNumber").innerHTML = grain;
@@ -159,7 +160,8 @@ function researchSmelting() {
 
 function randomOccurence(){
   randomEvent += 1;
-  if(randomEvent > 300){
+  if(occurenceLevel = 1){
+    if(randomEvent > 300){
     randomEvent = 0;
   }
   randomEventNum = Math.rand * 100;
@@ -195,6 +197,45 @@ function randomOccurence(){
   if(randomEventNum > 90 && randomEventNum < 100){
     
   }
+  }
+  if(occurenceLevel = 2){
+    if(randomEvent > 300){
+    randomEvent = 0;
+  }
+  randomEventNum = Math.rand * 100;
+  if(randomEventNum < 10){
+    //alert("You just killed an Albanian farmer by working him too hard! Lose 1 farmer");
+    //farmer -= 1
+  }
+  if(randomEventNum > 10 && randomEventNum < 20){
+    //alert("Some merchants stay at your farm! Gain rent: 100 Coins");
+    //money += 100;
+  }
+  if(randomEventNum > 20 && randomEventNum < 30){
+    
+  }
+  if(randomEventNum > 30 && randomEventNum < 40){
+    
+  }
+  if(randomEventNum > 40 && randomEventNum < 50){
+    
+  }
+  if(randomEventNum > 50 && randomEventNum < 60){
+    
+  }
+  if(randomEventNum > 60 && randomEventNum < 70){
+    
+  }
+  if(randomEventNum > 70 && randomEventNum < 80){
+    
+  }
+  if(randomEventNum > 80 && randomEventNum < 90){
+    
+  }
+  if(randomEventNum > 90 && randomEventNum < 100){
+    
+  }
+  }
 }
 
 function getScience() {
@@ -222,6 +263,12 @@ function autoGrain(){
 }
 
 function prestige(){
+  if(occurenceLevel = 1){
+    if(prestigeClaimed >= 100){
+      occurenceLevel += 1;
+    }
+  }
+  }
   money = 0;
   prestigeClaimed += prestigeValue;
   prestigeValue = 0;
