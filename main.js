@@ -15,6 +15,7 @@ var farmerGain = 10;
 var farmerCost = 250;
 var prestigeClaimed = 0;
 var prestigeValue = 0;
+var prestigeReq = 1000;
 
 function refreshStats(){
   document.getElementById("grainNumber").innerHTML = grain;
@@ -234,7 +235,8 @@ function prestige(){
 function valuePrestige(){
   //updates every second how many prestige you can claim
   //run once for every prestige check
-  if(money > 1000 * Math.pow(1.1,prestigeValue)){
+  if(money > prestigeReq * Math.pow(1.1,prestigeValue)){
+    prestigeReq *= 2;
     prestigeValue += 1;
     valuePrestige();
   }
