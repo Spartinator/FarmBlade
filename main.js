@@ -229,7 +229,10 @@ function prestige(){
 }
 
 function valuePrestige(){
-  prestigeNum = Math.floor(money / 1000);
+  //run once for every prestige
+  //use for
+  prestigeNum = Math.floor(money / 1000 * Math.pow(1.1,prestige);
+  //updates every second how many prestige you can claim
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
 }
 
