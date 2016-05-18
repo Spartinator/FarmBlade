@@ -96,7 +96,6 @@ function goToResearch() {
   document.getElementById("techScreen").className = " ";
   document.getElementById("kingdomScreen").className = "hidden";
   document.getElementById("science").className = " ";
-  document.getElementById("scienceButton").className = " ";
   document.getElementById("techMoney").innerHTML = money;
 }
 function goToMain() {
