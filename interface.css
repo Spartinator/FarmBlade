@@ -415,7 +415,7 @@ h1 {
   border-radius:5px;
   padding:10px 10px 10px 10px;
 }
-#smeltButton {
+#smeltButton:hover {
   color:black;
   font-weight:bold;
   font-family:Geneva;
