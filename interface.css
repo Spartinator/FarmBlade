@@ -138,26 +138,7 @@ h1 {
   border-radius:10px;
   padding:5px 5px 5px 5px;
 }
-#scienceResearch {
-  color:black;
-  font-family:Geneva;
-  font-weight:bold;
-  font-size:13px;
-  height:100px;
-  width:100px;
-  border:2px solid navy;
-  border-radius:20px;
-}
-#scienceResearch:hover {
-  color:black;
-  font-family:Geneva;
-  font-weight:bold;
-  font-size:13px;
-  height:100px;
-  width:100px;
-  border:2px solid red;
-  border-radius:20px;
-}
+
 #grainPriceUpgrade {
   color:#DEB887;
   font-weight:bold;
@@ -221,6 +202,24 @@ h1 {
   border:solid 7px #DEB887;
   border-radius:10px;
   padding:5px 5px 5px 5px;
+}
+#scienceResearch {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px #000080;
+  border-radius:5px;
+}
+#scienceResearch:hover {
+ color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px red;
+  border-radius:5px;
 }
 #oreResearch {
   color:#191970;
