@@ -382,7 +382,7 @@ h1 {
   font-family:Geneva;
   font-size:20px;
   background-color:#4169E1;
-  border: solid 2px #000080;
+  border: solid 2px red;
   border-radius:5px;
 }
 #prestigeButton {
