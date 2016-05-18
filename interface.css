@@ -405,6 +405,16 @@ h1 {
   font-size:25px;
   padding:10px 10px 10px 10px;
 }
+#prestigeClaimed {
+  color:#DAA520;
+  background-color:#9932CC;
+  border:solid 2px #FFD700;
+  border-radius:5px;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:25px;
+  padding:10px 10px 10px 10px;
+}
 #smeltButton {
   color:black;
   font-weight:bold;
