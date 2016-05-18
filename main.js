@@ -147,6 +147,14 @@ function researchPrestige() {
     document.getElementById("prestigeButton").className = " ";
   }
 }
+function researchSmelting() {
+  if(science >= 30) {
+    science -= 30;
+    document.getElementById("smeltingResearch").className = "hidden";
+    document.getElementById("smeltButton").className = " ";
+    document.getElementById("scienceNumber").innerHTML = science;
+  }
+}
 
 function randomOccurence(){
   randomEvent += 1;
