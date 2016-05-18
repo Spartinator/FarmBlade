@@ -108,11 +108,11 @@ h1 {
 }
 #techMoneyBox {
   color:black;
-  font-size:24px;
+  font-size:25px;
   font-weight:bold;
   font-family:Geneva;
-  background-color:#B8860B;
-  border:solid #B8860B 1px;
+  background-color:#6495ED;
+  border:solid #00008B 1px;
   border-radius:7px;
 }
 #grainStore {
