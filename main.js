@@ -166,36 +166,34 @@ function randomOccurence(){
   }
   randomEventNum = Math.rand * 100;
   if(randomEventNum < 10){
-    //alert("You just killed an Albanian farmer by working him too hard! Lose 1 farmer");
-    //farmer -= 1
+    alert("1");
   }
   if(randomEventNum > 10 && randomEventNum < 20){
-    //alert("Some merchants stay at your farm! Gain rent: 100 Coins");
-    //money += 100;
+    alert("2");
   }
   if(randomEventNum > 20 && randomEventNum < 30){
-    
+    alert("3");
   }
   if(randomEventNum > 30 && randomEventNum < 40){
-    
+    alert("4");
   }
   if(randomEventNum > 40 && randomEventNum < 50){
-    
+    alert("5");
   }
   if(randomEventNum > 50 && randomEventNum < 60){
-    
+    alert("6");
   }
   if(randomEventNum > 60 && randomEventNum < 70){
-    
+    alert("7");
   }
   if(randomEventNum > 70 && randomEventNum < 80){
-    
+    alert("8");
   }
   if(randomEventNum > 80 && randomEventNum < 90){
-    
+    alert("9");
   }
   if(randomEventNum > 90 && randomEventNum < 100){
-    
+    alert("10");
   }
   }
   if(occurenceLevel = 2){
@@ -204,36 +202,34 @@ function randomOccurence(){
   }
   randomEventNum = Math.rand * 100;
   if(randomEventNum < 10){
-    //alert("You just killed an Albanian farmer by working him too hard! Lose 1 farmer");
-    //farmer -= 1
+    alert("11");
   }
   if(randomEventNum > 10 && randomEventNum < 20){
-    //alert("Some merchants stay at your farm! Gain rent: 100 Coins");
-    //money += 100;
+    alert("12");
   }
   if(randomEventNum > 20 && randomEventNum < 30){
-    
+    alert("13");
   }
   if(randomEventNum > 30 && randomEventNum < 40){
-    
+    alert("14");
   }
   if(randomEventNum > 40 && randomEventNum < 50){
-    
+    alert("15");
   }
   if(randomEventNum > 50 && randomEventNum < 60){
-    
+    alert("16");
   }
   if(randomEventNum > 60 && randomEventNum < 70){
-    
+    alert("17");
   }
   if(randomEventNum > 70 && randomEventNum < 80){
-    
+    alert("18");
   }
   if(randomEventNum > 80 && randomEventNum < 90){
-    
+    alert("19");
   }
   if(randomEventNum > 90 && randomEventNum < 100){
-    
+    alert("20");
   }
   }
 }
