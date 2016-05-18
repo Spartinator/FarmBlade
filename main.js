@@ -223,15 +223,17 @@ function autoGrain(){
 
 function prestige(){
   money = 0;
-  prestigeValue += prestigeNum;
+  prestigeNum += prestigeValue;
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
   document.getElementById("money").innerHTML = money;
 }
 
 function valuePrestige(){
   //run once for every prestige
-  //use for
-  prestigeNum = Math.floor(money / 1000 * Math.pow(1.1,prestige);
+  //use for loop
+  if(money > 1000 * Math.pow(1.1,prestige)){
+    prestigeValue += 1;
+  }
   //updates every second how many prestige you can claim
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
 }
