@@ -102,7 +102,7 @@ function goToMain() {
  document.getElementById("background").className = "mainBackground";
  document.getElementById("techScreen").className = "hidden";
  document.getElementById("kingdomScreen").className = " ";
-   document.getElementById("money").innerHTML = money;
+ document.getElementById("money").innerHTML = money;
 }
 
 function researchScience() {
@@ -199,8 +199,7 @@ function randomOccurence(){
 
 function getScience() {
   if(scienceUnlock === true){
-    
-    science = Math.floor(science + scienceModifier);
+    science += scienceModifier;
     document.getElementById("techMoney").innerHTML = money;
     document.getElementById("scienceNumber").innerHTML = science;
   }
