@@ -235,8 +235,7 @@ function prestige(){
 function valuePrestige(){
   //updates every second how many prestige you can claim
   //run once for every prestige check
-  if(money >= Math.floor(prestigeReq * Math.pow(1.1,prestigeValue + prestigeClaimed))){
-    prestigeReq *= 2;
+  if(money >= Math.floor(10000 * Math.pow(1.2,prestigeValue + prestigeClaimed))){
     prestigeValue += 1;
     valuePrestige();
   }
