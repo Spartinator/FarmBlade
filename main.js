@@ -224,6 +224,7 @@ function autoGrain(){
 function prestige(){
   money = 0;
   prestigeNum += prestigeValue;
+  prestigeValue = 0;
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
   document.getElementById("money").innerHTML = money;
 }
@@ -233,6 +234,7 @@ function valuePrestige(){
   //run once for every prestige check
   if(money > 1000 * Math.pow(1.1,prestigeValue)){
     prestigeValue += 1;
+    valuePrestige();
   }
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
 }
