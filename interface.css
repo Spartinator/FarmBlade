@@ -252,6 +252,7 @@ h1 {
   font-size:25px;
   margin-right:40%;
   font-size:40px;
+  min-width:100px;
 }
 #scienceButton {
   color:black;
