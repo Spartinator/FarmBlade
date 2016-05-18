@@ -13,7 +13,7 @@ var oreModifier = 0.5;
 var farmer = 0;
 var farmerGain = 10;
 var farmerCost = 250;
-var prestigeNum = 0;
+var prestigeClaimed = 0;
 var prestigeValue = 0;
 
 function refreshStats(){
@@ -145,6 +145,7 @@ function researchPrestige() {
     document.getElementById("scienceNumber").innerHTML = science;
     document.getElementById("prestigeResearch").className = "hidden";
     document.getElementById("prestigeButton").className = " ";
+    document.getElementById("prestigeClaimed").className = "disabled";
   }
 }
 function researchSmelting() {
@@ -223,9 +224,10 @@ function autoGrain(){
 
 function prestige(){
   money = 0;
-  prestigeNum += prestigeValue;
+  prestigeClaimed += prestigeValue;
   prestigeValue = 0;
   document.getElementById("prestigeValue").innerHTML = prestigeValue;
+  document.getElementById("prestigeClaimed").innerHTML = prestigeClaimed;
   document.getElementById("money").innerHTML = money;
 }
 
