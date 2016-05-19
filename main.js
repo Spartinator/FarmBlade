@@ -171,7 +171,7 @@ function smelt() {
 
 function randomOccurence(){
   randomEvent += 1;
-  if(occurenceLevel = 1){
+  if(occurenceLevel === 1){
     if(randomEvent > 300){
     randomEvent = 0;
     
@@ -208,7 +208,7 @@ function randomOccurence(){
   }
     }
   }
-  if(occurenceLevel = 2){
+  if(occurenceLevel === 2){
     if(randomEvent > 300){
     randomEvent = 0;
     
