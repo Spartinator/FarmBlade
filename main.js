@@ -252,7 +252,7 @@ function randomOccurence(){
 
 function killSlave(number){
   if(farmer === 0){
-    
+    randomEvent = 299;
   }
   if(farmer >= number){
     //Pop up on screen (bottom right corner): Oh no! [number] ~~slaves~~ loyal farmers died!
