@@ -244,6 +244,7 @@ function randomOccurence(){
   }
   }
 }
+}
 
 function getScience() {
   if(scienceUnlock === true){
