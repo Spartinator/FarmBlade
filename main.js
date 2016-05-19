@@ -18,6 +18,8 @@ var prestigeValue = 0;
 var prestigeReq = 1000;
 var scienceUnlock = false;
 var occurenceLevel = 1;
+var metal = 0;
+var oreMetalModifier = 0.25;
 
 function refreshStats(){
   document.getElementById("grainNumber").innerHTML = grain;
@@ -156,6 +158,12 @@ function researchSmelting() {
     document.getElementById("smeltButton").className = " ";
     document.getElementById("scienceNumber").innerHTML = science;
   }
+}
+function smelt() {
+  metal += ore * oreMetalModifier;
+  ore = 0;
+  document.getElementById("metal").innerHTML = metal;
+  document.getElementById("ore").innerHTML = ore;
 }
 
 function randomOccurence(){
