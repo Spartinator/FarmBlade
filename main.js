@@ -245,7 +245,7 @@ function randomOccurence(){
   }
     }
   }
-
+}
 function getScience() {
   if(scienceUnlock === true){
     science = Math.floor((science + scienceModifier) * 100) / 100;
