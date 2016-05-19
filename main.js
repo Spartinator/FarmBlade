@@ -206,11 +206,12 @@ function randomOccurence(){
   if(randomEventNum > 90 && randomEventNum < 100){
     alert("10");
   }
+    }
   }
   if(occurenceLevel = 2){
     if(randomEvent > 300){
     randomEvent = 0;
-  }
+    
   randomEventNum = Math.rand * 100;
   if(randomEventNum < 10){
     alert("11");
@@ -242,9 +243,8 @@ function randomOccurence(){
   if(randomEventNum > 90 && randomEventNum < 100){
     alert("20");
   }
+    }
   }
-}
-}
 
 function getScience() {
   if(scienceUnlock === true){
