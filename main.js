@@ -170,6 +170,7 @@ function smelt() {
 }
 
 function randomOccurence(){
+  //REMOVE ALERTS AND REPLACE THEM WITH POP UPS IN THE BOTTOM RIGHT CORNER!
   randomEvent += 1;
   if(occurenceLevel === 1){
     if(randomEvent > 300){
@@ -177,9 +178,11 @@ function randomOccurence(){
     
   randomEventNum = Math.random() * 100;
   if(randomEventNum < 10){
-    alert("1");
+    killSlave(1);
+    alert("Slaves Die");
   }
   if(randomEventNum > 10 && randomEventNum < 20){
+    //loseGrain(10)
     alert("2");
   }
   if(randomEventNum > 20 && randomEventNum < 30){
@@ -246,6 +249,17 @@ function randomOccurence(){
     }
   }
 }
+
+function killSlave(number){
+  if(farmer === 0){
+    
+  }
+  if(farmer > 0){
+    //Pop up on screen (bottom right corner): Oh no! [number] ~~slaves~~ loyal farmers died!
+    farmer -= number;
+  }
+}
+
 function getScience() {
   if(scienceUnlock === true){
     science = Math.floor((science + scienceModifier) * 100) / 100;
