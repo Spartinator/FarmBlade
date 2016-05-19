@@ -254,7 +254,7 @@ function killSlave(number){
   if(farmer === 0){
     
   }
-  if(farmer > 0){
+  if(farmer >= number){
     //Pop up on screen (bottom right corner): Oh no! [number] ~~slaves~~ loyal farmers died!
     farmer -= number;
   }
