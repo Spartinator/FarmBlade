@@ -175,7 +175,7 @@ function randomOccurence(){
     if(randomEvent > 300){
     randomEvent = 0;
     
-  randomEventNum = Math.rand * 100;
+  randomEventNum = Math.random() * 100;
   if(randomEventNum < 10){
     alert("1");
   }
@@ -212,7 +212,7 @@ function randomOccurence(){
     if(randomEvent > 300){
     randomEvent = 0;
     
-  randomEventNum = Math.rand * 100;
+  randomEventNum = Math.random() * 100;
   if(randomEventNum < 10){
     alert("11");
   }
