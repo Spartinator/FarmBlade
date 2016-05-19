@@ -149,6 +149,7 @@ function researchPrestige() {
     document.getElementById("prestigeResearch").className = "hidden";
     document.getElementById("prestigeButton").className = " ";
     document.getElementById("prestigeClaimed").className = "disabled";
+    document.getElementById("sciencePlusResearch").className = " ";
   }
 }
 function researchSmelting() {
@@ -157,6 +158,8 @@ function researchSmelting() {
     document.getElementById("smeltingResearch").className = "hidden";
     document.getElementById("smeltButton").className = " ";
     document.getElementById("scienceNumber").innerHTML = science;
+    document.getElementById("oreSellResearch").className = " ";
+    document.getElementById("trainingResearch").className = " ";
   }
 }
 function smelt() {
