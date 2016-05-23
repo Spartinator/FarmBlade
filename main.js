@@ -66,6 +66,22 @@ function load(){
 	"use strict";
 	var savegame = JSON.parse(localStorage.getItem("save"));
 	if (typeof savegame.money !== "undefined") money = savegame.money;
+	if (typeof savegame.kingdomName !== "undefined") kingdomName = savegame.kingdomName;
+	if (typeof savegame.grain !== "undefined") grain = savegame.grain;
+	if (typeof savegame.grainPerClick !== "undefined") grainPerClick = savegame.grainPerClick;
+	if (typeof savegame.grainYieldLevel !== "undefined") grainYieldLevel = savegame.grainYieldLevel;
+	if (typeof savegame.upgradeGrainYieldPrice !== "undefined") upgradeGrainYieldPrice = savegame.upgradeGrainYieldPrice;
+	if (typeof savegame.grainSellPrice !== "undefined") grainSellPrice = savegame.grainSellPrice;
+	if (typeof savegame.upgrade1 !== "undefined") upgrade1 = savegame.upgrade1;
+	if (typeof savegame.upgrade2 !== "undefined") upgrade2 = savegame.upgrade2;
+	if (typeof savegame.upgrade3 !== "undefined") upgrade3 = savegame.upgrade3;
+	if (typeof savegame.upgradeGrainValueCost !== "undefined") upgradeGrainValueCost = savegame.upgradeGrainValueCost;
+	if (typeof savegame.grainPriceLevel !== "undefined") grainPriceLevel = savegame.grainPriceLevel;
+	if (typeof savegame.randomEvent !== "undefined") randomEvent = savegame.randomEvent;
+	//if (typeof savegame.kingdomName !== "undefined") kingdomName = savegame.kingdomName;
+	//if (typeof savegame.kingdomName !== "undefined") kingdomName = savegame.kingdomName;
+	//if (typeof savegame.kingdomName !== "undefined") kingdomName = savegame.kingdomName;
+	
 	
 	refreshStats();
 	
