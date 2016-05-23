@@ -26,6 +26,42 @@ function refreshStats(){
   document.getElementById("money").innerHTML = money;
 }
 
+function save(){
+	"use strict";
+	var save = {
+		kingdomName: kingdomName,
+		grain: grain,
+		grainPerClick: grainPerClick,
+		grainYieldLevel:grainYieldLevel,
+		upgradeGrainYieldPrice: upgradeGrainYieldPrice,
+		grainSellPrice: grainSellPrice,
+		upgrade1: upgrade1,
+		upgrade2: upgrade2,
+		upgrade3: upgrade3,
+		money: money,
+		upgradeGrainValueCost: upgradeGrainValueCost,
+		grainPriceLevel: grainPriceLevel,
+		randomEvent: randomEvent,
+		randomEventNum: randomEventNum,
+		science: science,
+		scienceModifier: scienceModifier,
+		ore: ore,
+		oreModifier: oreModifier,
+		farmer: farmer,
+		farmerGain: farmerGain,
+		farmerCost: farmerCost,
+		prestigeClaimed: prestigeClaimed,
+		prestigeValue: prestigeValue,
+		prestigeReq: prestigeReq,
+		scienceUnlock: scienceUnlock,
+		occurenceLevel: occurenceLevel,
+		metal: metal,
+		oreMetalModifier: oreMetalModifier,
+	};
+	localStorage.setItem("save",JSON.stringify(save));
+	alert("Save Successful!");
+}
+
 function startGame() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your Kingdom to Begin!");
   kingdomName = gameStartPrompt;
