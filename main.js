@@ -62,6 +62,16 @@ function save(){
 	alert("Save Successful!");
 }
 
+function load(){
+	"use strict";
+	var savegame = JSON.parse(localStorage.getItem("save"));
+	if (typeof savegame.money !== "undefined") money = savegame.money;
+	
+	refreshStats();
+	
+	alert("Load Successful!");
+}
+
 function startGame() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your Kingdom to Begin!");
   kingdomName = gameStartPrompt;
