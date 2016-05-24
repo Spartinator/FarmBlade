@@ -78,9 +78,11 @@ function load(){
 	if (typeof savegame.upgradeGrainValueCost !== "undefined") upgradeGrainValueCost = savegame.upgradeGrainValueCost;
 	if (typeof savegame.grainPriceLevel !== "undefined") grainPriceLevel = savegame.grainPriceLevel;
 	if (typeof savegame.randomEvent !== "undefined") randomEvent = savegame.randomEvent;
-	//if (typeof savegame.kingdomName !== "undefined") kingdomName = savegame.kingdomName;
-	//if (typeof savegame.kingdomName !== "undefined") kingdomName = savegame.kingdomName;
-	//if (typeof savegame.kingdomName !== "undefined") kingdomName = savegame.kingdomName;
+	if (typeof savegame.randomEventNum !== "undefined") randomEventNum = savegame.randomEventNum;
+	if (typeof savegame.science !== "undefined") science = savegame.science;
+	if (typeof savegame.scienceModifier !== "undefined") scienceModifier = savegame.scienceModifier;
+	if (typeof savegame.scienceModifier !== "undefined") scienceModifier = savegame.scienceModifier;
+	if (typeof savegame.scienceModifier !== "undefined") scienceModifier = savegame.scienceModifier;
 	
 	
 	refreshStats();
