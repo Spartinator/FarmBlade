@@ -13,6 +13,42 @@ h1 {
   text-align:center;
   
 }
+#saveButton {
+  color: #66CDAA;
+  border: 1px solid #66CDAA;
+  background-color: #AFEEEE;
+  border-radius:10px;
+  font-size:25px;
+  font-weight:bold;
+  font-family:Geneva;
+}
+#saveButton:hover {
+  color: #AFEEEE;
+  border: 1px solid #66CDAA;
+  background-color: #66CDAA;
+  border-radius:10px;
+  font-size:25px;
+  font-weight:bold;
+  font-family:Geneva;
+}
+#loadButton {
+  color: #66CDAA;
+  border: 1px solid #66CDAA;
+  background-color: #AFEEEE;
+  border-radius:10px;
+  font-size:25px;
+  font-weight:bold;
+  font-family:Geneva;
+}
+#loadButton:hover {
+  color: #AFEEEE;
+  border: 1px solid #66CDAA;
+  background-color: #66CDAA;
+  border-radius:10px;
+  font-size:25px;
+  font-weight:bold;
+  font-family:Geneva;
+}
 #startButton {
   color:orange;
   font-weight:bold;
