@@ -81,8 +81,18 @@ function load(){
 	if (typeof savegame.randomEventNum !== "undefined") randomEventNum = savegame.randomEventNum;
 	if (typeof savegame.science !== "undefined") science = savegame.science;
 	if (typeof savegame.scienceModifier !== "undefined") scienceModifier = savegame.scienceModifier;
-	if (typeof savegame.scienceModifier !== "undefined") scienceModifier = savegame.scienceModifier;
-	if (typeof savegame.scienceModifier !== "undefined") scienceModifier = savegame.scienceModifier;
+	if (typeof savegame.ore !== "undefined") ore = savegame.ore;
+	if (typeof savegame.oreModifier !== "undefined") oreModifier = savegame.oreModifier;
+	if (typeof savegame.farmer !== "undefined") farmer = savegame.farmer;
+	if (typeof savegame.farmerGain !== "undefined") farmerGain = savegame.farmerGain;
+	if (typeof savegame.farmerCost !== "undefined") farmerCost = savegame.farmerCost;
+	if (typeof savegame.prestigeClaimed !== "undefined") prestigeClaimed = savegame.prestigeClaimed;
+	if (typeof savegame.prestigeValue !== "undefined") prestigeValue = savegame.prestigeValue;
+	if (typeof savegame.prestigeReq !== "undefined") prestigeReq = savegame.prestigeReq;
+	if (typeof savegame.scienceUnlock !== "undefined") scienceUnlock = savegame.scienceUnlock;
+	if (typeof savegame.occurenceLevel !== "undefined") occurenceLevel = savegame.occurenceLevel;
+	if (typeof savegame.metal !== "undefined") metal = savegame.metal;
+	if (typeof savegame.oreMetalModifier !== "undefined") oreMetalModifier = savegame.oreMetalModifier;
 	
 	
 	refreshStats();
