@@ -20,6 +20,7 @@ var scienceUnlock = false;
 var occurenceLevel = 1;
 var metal = 0;
 var oreMetalModifier = 0.25;
+var upgradeScienceCost = 2000;
 
 function refreshStats(){
   document.getElementById("grainNumber").innerHTML = grain;
@@ -250,6 +251,16 @@ function researchSciencePlus() {
 		document.getElementById("scienceNumber").innerHTML = science;
 		document.getElementById("improveScienceButton").className = " ";
 		document.getElementById("sciencePlusResearch").className = "hidden";
+	}
+}
+function upgradeScience() {
+	if(money >= upgradeScienceCost){
+		money -= upgradeScienceCost;
+		document.getElementById("money").innerHTML = money;
+		scienceModifier = Math.floor(scienceModifier * 1.3);
+		upgradeScienceCost = Math.floor(upgradeScienceCost * 1.4);
+		document.getElementById("scienceUpgradeCostNum").innerHTML = scienceUpgradeCost;
+		document.getElementById("scienceNumber").innerHTML = science;
 	}
 }
 
