@@ -244,6 +244,13 @@ function smelt() {
   document.getElementById("metal").innerHTML = metal;
   document.getElementById("ore").innerHTML = ore;
 }
+function researchSciencePlus() {
+	if(science >= 25) {
+		science -= 25
+		document.getElementById("scienceNumber").innerHTML = science;
+		document.getElementById("improveScienceButton").className = " ";
+	}
+}
 
 function randomOccurence(){
   //REMOVE ALERTS AND REPLACE THEM WITH POP UPS IN THE BOTTOM RIGHT CORNER!
