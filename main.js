@@ -249,6 +249,7 @@ function researchSciencePlus() {
 		science -= 25
 		document.getElementById("scienceNumber").innerHTML = science;
 		document.getElementById("improveScienceButton").className = " ";
+		document.getElementById("sciencePlusResearch").className = "hidden";
 	}
 }
 
