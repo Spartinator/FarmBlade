@@ -255,7 +255,7 @@ function researchSciencePlus() {
 }
 function upgradeScience() {
 	if(money >= upgradeScienceCost){
-		money -= upgradeScienceCost;
+		money -= scienceUpgradeCost;
 		document.getElementById("money").innerHTML = money;
 		scienceModifier = Math.floor(scienceModifier * 1.3);
 		upgradeScienceCost = Math.floor(upgradeScienceCost * 1.4);
