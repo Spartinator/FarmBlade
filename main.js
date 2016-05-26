@@ -258,7 +258,7 @@ function upgradeScience() {
 		money -= scienceUpgradeCost;
 		document.getElementById("money").innerHTML = money;
 		scienceModifier = Math.floor(scienceModifier * 1.3);
-		upgradeScienceCost = Math.floor(upgradeScienceCost * 1.4);
+		scienceUpgradeCost = Math.floor(scienceUpgradeCost * 1.4);
 		document.getElementById("scienceUpgradeCostNum").innerHTML = scienceUpgradeCost;
 		document.getElementById("scienceNumber").innerHTML = science;
 	}
