@@ -20,7 +20,7 @@ var scienceUnlock = false;
 var occurenceLevel = 1;
 var metal = 0;
 var oreMetalModifier = 0.25;
-var upgradeScienceCost = 2000;
+var scienceUpgradeCost = 2000;
 
 function refreshStats(){
   document.getElementById("grainNumber").innerHTML = grain;
