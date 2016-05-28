@@ -242,7 +242,7 @@ function researchSmelting() {
 function smelt() {
   metal += ore * oreMetalModifier;
   ore = 0;
-  document.getElementById("metal").innerHTML = metal;
+  document.getElementById("metalStore").innerHTML = metal;
   document.getElementById("ore").innerHTML = ore;
 }
 function researchSciencePlus() {
