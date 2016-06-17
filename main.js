@@ -21,6 +21,8 @@ var occurenceLevel = 1;
 var metal = 0;
 var oreMetalModifier = 0.25;
 var scienceUpgradeCost = 2000;
+var oreSellPrice = 50;
+var oreSellPriceUpgrade = 500;
 
 function refreshStats(){
   document.getElementById("grainNumber").innerHTML = grain;
@@ -271,6 +273,14 @@ function researchOreSell() {
 		document.getElementById("oreSell").className = " ";
 		alert("Thank god! All that ore laying around is taking up space, now we can sell it!");
 	}
+}
+function sellOre() {
+	ore = 0;
+	document.getElementById("oreNumber").innerHTML = ore;
+	money += ore * oreSellPrice;
+	document.getElementById("money").innerHTML = money;
+	document.getElementById("techMoney").innerHTML = money;
+	
 }
 
 function randomOccurence(){
