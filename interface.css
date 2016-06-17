@@ -492,3 +492,47 @@ h1 {
   border-radius:5px;
   padding:10px 10px 10px 10px;
 }
+#oreSell {
+  color: #4B0082;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color: #DAA520;
+  border:2px solid black;
+  border-radius:5px;
+  padding:10px 10px 10px 10px
+}
+#oreSell:hover {
+  color: #4B0082;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color: #DAA520;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px
+}
+#improveScienceButton {
+  color:black;
+  background-color: #00CED1;
+  border: black solid 3px;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:25px;
+  font-size:40px;
+  min-width:100px;
+}
+#improveScienceButton:hover {
+  color:black;
+  background-color: #00CED1;
+  border: red solid 3px;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:25px;
+  font-size:40px;
+  min-width:100px;
+}
