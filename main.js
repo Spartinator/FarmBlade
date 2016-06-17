@@ -263,6 +263,15 @@ function upgradeScience() {
 		document.getElementById("scienceNumber").innerHTML = science;
 	}
 }
+function researchOreSell() {
+	if(science >= 40){
+		science -= 40;
+		document.getElementById("scienceNumber").innerHTML = science;
+		document.getElementById("oreSellResearch").className = "hidden";
+		document.getElementById("oreSell").className = " ";
+		alert("Thank god! All that ore laying around is taking up space, now we can sell it!");
+	}
+}
 
 function randomOccurence(){
   //REMOVE ALERTS AND REPLACE THEM WITH POP UPS IN THE BOTTOM RIGHT CORNER!
