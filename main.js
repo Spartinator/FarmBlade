@@ -358,7 +358,6 @@ function randomOccurence(){
   }
     }
   }
-}
 
 function killSlave(number){
   if(farmer === 0){
