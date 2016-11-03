@@ -29,7 +29,7 @@ function refreshStats(){
   document.getElementById("money").innerHTML = money;
 }
 
-function save(){
+/*function save(){
 	"use strict";
 	var save = {
 		kingdomName: kingdomName,
@@ -101,7 +101,7 @@ function load(){
 	refreshStats();
 	
 	alert("Load Successful!");
-}
+}*/
 
 function startGame() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your Kingdom to Begin!");
@@ -115,8 +115,8 @@ function startGame() {
   document.getElementById("grainSellButton").className = " ";
   document.getElementById("money").className = " ";
   document.getElementById("moneyBox").className = " ";
-  document.getElementById("loadButton").className = " ";
-  document.getElementById("saveButton").className = " ";
+  //document.getElementById("loadButton").className = " ";
+  //document.getElementById("saveButton").className = " ";
 }
 function getGrain() {
   grain += grainYieldLevel;
@@ -290,10 +290,6 @@ function randomOccurence(){
     if(randomEvent > 300){
     randomEvent = 0;
     
-  randomEventNum = Math.random() * 100;
-  if(randomEventNum < 10){
-    killSlave(1);
-    alert("Slaves Die");
   }
   if(randomEventNum > 10 && randomEventNum < 20){
     //loseGrain(10)
