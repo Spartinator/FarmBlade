@@ -191,6 +191,7 @@ function researchScience() {
     document.getElementById("oreResearch").className = " ";
     document.getElementById("scienceResearch").className = "hidden";
     scienceUnlock = true;
+    alert("Now your people are getting on their thinking caps! For now, their feeble brains will generate 0.1 science every second.");	
 }
 function researchOre() {
   if(science >= 5) {
@@ -229,6 +230,7 @@ function researchPrestige() {
     document.getElementById("prestigeButton").className = " ";
     document.getElementById("prestigeClaimed").className = "disabled";
     document.getElementById("sciencePlusResearch").className = " ";
+    alert("With your newly aquired wealth of resources, people admire your settlement with envy. Now you can give it all up for a bonus if you wish to prestige!");
   }
 }
 function researchSmelting() {
@@ -239,6 +241,7 @@ function researchSmelting() {
     document.getElementById("scienceNumber").innerHTML = science;
     document.getElementById("oreSellResearch").className = " ";
     document.getElementById("trainingResearch").className = " ";
+    alert("One day, a man looked upon your pile of random ore and decided to chuck it all in a fire. What a genius!");
   }
 }
 function smelt() {
@@ -253,6 +256,7 @@ function researchSciencePlus() {
 		document.getElementById("scienceNumber").innerHTML = science;
 		document.getElementById("improveScienceButton").className = " ";
 		document.getElementById("sciencePlusResearch").className = "hidden";
+		alert("Your people lust for knowledge! New infrastructure will provide more science! Access it in the kingdom screen.");
 	}
 }
 function upgradeScience() {
@@ -371,7 +375,7 @@ function killSlave(number){
 
 function getScience() {
   if(scienceUnlock === true){
-    science = Math.floor((science + scienceModifier) * 100) / 100;
+    science = Math.round((science + scienceModifier) * 100) / 100;
     document.getElementById("techMoney").innerHTML = money;
     document.getElementById("scienceNumber").innerHTML = science;
   }
@@ -397,6 +401,7 @@ function prestige(){
   if(occurenceLevel = 1){
     if(prestigeClaimed >= 100){
       occurenceLevel += 1;
+	    //add buffs in here!
     }
   }
   money = 0;
