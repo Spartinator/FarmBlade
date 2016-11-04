@@ -279,11 +279,11 @@ function researchOreSell() {
 	}
 }
 function sellOre() {
-	ore = 0;
 	document.getElementById("oreNumber").innerHTML = ore;
 	money += ore * oreSellPrice;
 	document.getElementById("money").innerHTML = money;
 	document.getElementById("techMoney").innerHTML = money;
+	ore = 0;
 	
 }
 
